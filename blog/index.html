@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+meta: Blog Page
+---
+
+<h1>Blog Page</h1>
+<p>Blog content to be added here.</p>
+
+<ul>
+  {% for post in site.categories.blog-post %}
+  <li>
+    <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+    <p>{{post.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>

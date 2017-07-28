@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Invysti's Website">
@@ -11,10 +9,10 @@
     <title>{% if page.title %}{{page.title}} - {% endif %}Invysti</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.basurl}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{site.basurl}}/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
@@ -22,7 +20,7 @@
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="{{site.basurl}}/css/grayscale.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>
@@ -41,6 +39,28 @@
 
 {% include nav.html %}
 
+<body id="page-top">
+
 {{content}}
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2017</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{site.basurl}}/vendor/jquery/jquery.min.js"></script>
+    <script src="{{site.basurl}}/vendor/tether/tether.min.js"></script>
+    <script src="{{site.basurl}}/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{site.basurl}}/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{site.basurl}}/js/grayscale.min.js"></script>
+
+</body>
 
 </html>
