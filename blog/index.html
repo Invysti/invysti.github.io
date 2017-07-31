@@ -7,6 +7,7 @@ meta: Blog Page
 <ul class="post-list">
   {% for post in site.categories.blog-post %}
   <li>
+    <p class="date">{{post.postdate}}</p>
     <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
     <p>{{post.meta}}</p>
   </li>

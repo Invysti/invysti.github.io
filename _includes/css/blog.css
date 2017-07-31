@@ -10,5 +10,10 @@
 
 #blog-post p {
   font-size: 14px;
-  margin-bottom: 25px;
+}
+
+.date {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 0px;
 }

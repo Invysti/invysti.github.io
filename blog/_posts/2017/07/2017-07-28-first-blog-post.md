@@ -4,6 +4,7 @@ title: Hello, World!
 meta: My first blog post.
 source:
 category: blog-post
+postdate: 7/27/2017
 ---
 
 Hello, World! Welcome to my website and blog! My name is Chris but I go by the alias Invysti on the Internet. A little bit about me, I am an aspiring programmer based in the Texas area. I am actually a CPA (certified public accountant) with a Master's Degree in Accounting. However, I'll be returning to school this fall for a Post-Baccalaureate in Computer Science after discovering my passion for programming. The main purpose of this website and blog is to catalog my journey through programming as well as to keep myself on track and accountable to finish the projects that I start.
