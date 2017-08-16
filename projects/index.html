@@ -1,0 +1,15 @@
+---
+layout: projects
+title: Projects
+meta: Projects Page
+---
+
+<ul class="post-list">
+  {% for post in site.categories.project-post %}
+  <li>
+    <p class="date">{{post.postdate}}</p>
+    <h2><a href="{{post.postlink}}">{{post.title}}</a></h2>
+    <p>{{post.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>
