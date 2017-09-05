@@ -159,19 +159,20 @@ background-size: cover; }
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-   background-size: cover; }
+   background-size: cover;
   }
 
-.download-section {
-  width: 100%;
-  padding: 50px 0;
-  color: white;
-  background: url(../img/projects-bg-2.jpg) no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  .contact-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background: url(../img/contact-bg-2.jpg) no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
 
 #map {
   width: 100%;
@@ -197,14 +198,14 @@ background-size: cover; }
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #41CDF4;
+  border: 1px solid #41CDF4;
   background-color: transparent; }
   .btn-default:hover, .btn-default:focus {
     color: black;
-    border: 1px solid #42DCA3;
+    border: 1px solid #41CDF4;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: #41CDF4; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
